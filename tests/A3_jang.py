@@ -15,7 +15,7 @@ warnings.filterwarnings('ignore')
 # In[2]:
 
 
-df = pd.read_csv('Cars.csv')
+df = pd.read_csv('tests/Cars.csv')
 
 
 # In[3]:
