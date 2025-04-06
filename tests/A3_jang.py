@@ -15,7 +15,7 @@ warnings.filterwarnings('ignore')
 # In[2]:
 
 
-df = pd.read_csv('C:/ML/Python-for-Machine-Learning/00_Case_Study/Car_Data/Cars.csv')
+df = pd.read_csv('Cars.csv')
 
 
 # In[3]:
