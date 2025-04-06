@@ -40,14 +40,14 @@ df2 = df1[df1["fuel"].str.contains('CNG|LPG')==False]
 # In[6]:
 
 
-df2['mileage'] = df2['mileage'].str.extract('(\d+\.\d+)').astype(float)
+df2['mileage'] = df2['mileage'].str.extract(r'(\d+\.\d+)').astype(float)
 
 
 # In[7]:
 
 
-df2['engine'] = df2['engine'].str.extract('(\d+)').astype(float)
-df2['max_power'] = df2['max_power'].str.extract('(\d+\.?\d+)').astype(float)
+df2['engine'] = df2['engine'].str.extract(r'(\d+)').astype(float)
+df2['max_power'] = df2['max_power'].str.extract(r'(\d+\.?\d+)').astype(float)
 
 
 # In[8]:
